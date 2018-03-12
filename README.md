@@ -11,3 +11,8 @@ $ systemctl start docker
 '''
 $ yum install -y make
 '''
+
+
+
+Demo
+$ docker run --rm --name registry -p 5000:5000 docker.io/registry
